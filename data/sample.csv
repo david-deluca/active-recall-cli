@@ -1,0 +1,6 @@
+id,subject,topic,question,answer,difficulty
+THM_001,Thermodynamics,First Law,What does delta_U represent in the first law?,Change in internal energy of the system,2
+ALG_001,Linear Algebra,Eigenvalues,What condition must det(A - lambda*I) satisfy to find eigenvalues?,It must equal zero,2
+ANA_001,Analysis,Taylor Series,What is the Taylor expansion of e^x around x=0 up to order 2?,1 + x + x^2/2,3
+ELE_001,Electrostatics,Gauss Law,State Gauss law in integral form,Flux of E through closed surface equals Q_enclosed divided by epsilon_0,3
+ALG_002,Linear Algebra,Matrix Operations,What is the result of multiplying a matrix by its inverse?,The identity matrix,1
