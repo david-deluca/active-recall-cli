@@ -43,5 +43,30 @@
     "id": "ANA_001",
     "result": false,
     "timestamp": "2026-06-14T10:46:45.338949"
+  },
+  {
+    "id": "THM_001",
+    "result": true,
+    "timestamp": "2026-06-14T10:54:37.062330"
+  },
+  {
+    "id": "ANA_001",
+    "result": true,
+    "timestamp": "2026-06-14T10:54:59.806327"
+  },
+  {
+    "id": "ELE_001",
+    "result": true,
+    "timestamp": "2026-06-14T10:54:59.806359"
+  },
+  {
+    "id": "ANA_001",
+    "result": true,
+    "timestamp": "2026-06-14T10:55:12.922941"
+  },
+  {
+    "id": "ELE_001",
+    "result": true,
+    "timestamp": "2026-06-14T10:55:12.923000"
   }
 ]
