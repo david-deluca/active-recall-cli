@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ELE_001",
+    "result": true,
+    "timestamp": "2026-06-14T10:42:33.354959"
+  },
+  {
+    "id": "ALG_001",
+    "result": true,
+    "timestamp": "2026-06-14T10:42:33.354997"
+  },
+  {
+    "id": "ANA_001",
+    "result": true,
+    "timestamp": "2026-06-14T10:42:33.355001"
+  },
+  {
+    "id": "ALG_002",
+    "result": true,
+    "timestamp": "2026-06-14T10:42:33.355003"
+  },
+  {
+    "id": "ELE_001",
+    "result": true,
+    "timestamp": "2026-06-14T10:46:45.338910"
+  },
+  {
+    "id": "THM_001",
+    "result": true,
+    "timestamp": "2026-06-14T10:46:45.338942"
+  },
+  {
+    "id": "ALG_002",
+    "result": true,
+    "timestamp": "2026-06-14T10:46:45.338945"
+  },
+  {
+    "id": "ALG_001",
+    "result": false,
+    "timestamp": "2026-06-14T10:46:45.338947"
+  },
+  {
+    "id": "ANA_001",
+    "result": false,
+    "timestamp": "2026-06-14T10:46:45.338949"
+  }
+]
