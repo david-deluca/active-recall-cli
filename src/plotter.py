@@ -14,7 +14,7 @@ def plot_progress(history_filepath="data/history.json", output_filepath="output/
     with open(history_filepath, "r", encoding="utf-8") as f:
         history = json.load(f)
 
-    from loader import load_questions
+    from src.loader import load_questions
     questions = load_questions("data/sample.csv")
     id_to_subject = {q["id"]: q["subject"] for q in questions}
 

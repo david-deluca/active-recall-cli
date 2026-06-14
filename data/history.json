@@ -68,5 +68,15 @@
     "id": "ELE_001",
     "result": true,
     "timestamp": "2026-06-14T10:55:12.923000"
+  },
+  {
+    "id": "ALG_002",
+    "result": true,
+    "timestamp": "2026-06-14T11:37:45.607528"
+  },
+  {
+    "id": "THM_001",
+    "result": true,
+    "timestamp": "2026-06-14T11:37:45.607539"
   }
 ]

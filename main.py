@@ -1,9 +1,9 @@
 import random
 import argparse
-from storage import save_results
-from loader import load_questions
-from stats import show_stats
-from plotter import plot_progress
+from src.loader import load_questions
+from src.storage import save_results
+from src.stats import show_stats
+from src.plotter import plot_progress
 
 def run_session(filepath, n=5, subject=None, difficulty=None):
     """

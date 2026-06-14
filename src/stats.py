@@ -16,7 +16,7 @@ def show_stats(history_filepath="data/history.json"):
         return
      
      # We need subject info — load questions to match id -> subject
-    from loader import load_questions
+    from src.loader import load_questions
     questions = load_questions("data/sample.csv")
     id_to_subject = {q["id"]: q["subject"] for q in questions}
     # Count results per subject
