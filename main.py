@@ -2,6 +2,7 @@ import random
 import argparse
 from storage import save_results
 from loader import load_questions
+from stats import show_stats
 
 def run_session(filepath, n=5, subject=None, difficulty=None):
     """
@@ -51,6 +52,10 @@ if __name__ == "__main__":
     parser.add_argument("--subject", type=str, default=None, help="Filter by subject")
     parser.add_argument("--difficulty", type=int, default=None, help="Minimum difficulty level")
     parser.add_argument("--n", type=int, default=5, help="Number of questions per session")
+    parser.add_argument("--stats", action="store_true", help="Show study statistics")
     args = parser.parse_args()
 
-    run_session("data/sample.csv", n=args.n, subject=args.subject, difficulty=args.difficulty)
+    if args.stats:
+        show_stats()
+    else:
+        run_session("data/sample.csv", n=args.n, subject=args.subject, difficulty=args.difficulty)
