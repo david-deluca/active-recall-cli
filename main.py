@@ -4,8 +4,9 @@ from src.loader import load_questions
 from src.storage import save_results
 from src.stats import show_stats
 from src.plotter import plot_progress
+from src.smart import calculate_priorities
 
-def run_session(filepath, n=5, subject=None, difficulty=None):
+def run_session(filepath, n=5, subject=None, difficulty=None, smart=False):
     """
     Runs a study session with n questions loaded from filepath.
     """
@@ -19,7 +20,11 @@ def run_session(filepath, n=5, subject=None, difficulty=None):
     if not questions:
         print("No questions found with those filters.")
         return
-    selected = random.sample(questions, min(n, len(questions)))
+    if smart:
+        questions = calculate_priorities(questions)
+        selected = questions[:min(n, len(questions))]
+    else:
+        selected = random.sample(questions, min(n, len(questions)))
     
     correct = 0
     total = len(selected)
@@ -55,6 +60,7 @@ if __name__ == "__main__":
     parser.add_argument("--n", type=int, default=5, help="Number of questions per session")
     parser.add_argument("--stats", action="store_true", help="Show study statistics")
     parser.add_argument("--plot", action="store_true", help="Generate progress chart")
+    parser.add_argument("--smart", action="store_true", help="Prioritize questions based on history")
     args = parser.parse_args()
 
     if args.stats:
@@ -62,4 +68,4 @@ if __name__ == "__main__":
     elif args.plot:
         plot_progress()
     else:
-        run_session("data/sample.csv", n=args.n, subject=args.subject, difficulty=args.difficulty)
+        run_session("data/sample.csv", n=args.n, subject=args.subject, difficulty=args.difficulty, smart=args.smart)
