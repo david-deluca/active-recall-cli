@@ -4,3 +4,22 @@ ALG_001,Linear Algebra,Eigenvalues,What condition must det(A - lambda*I) satisfy
 ANA_001,Analysis,Taylor Series,What is the Taylor expansion of e^x around x=0 up to order 2?,1 + x + x^2/2,3
 ELE_001,Electrostatics,Gauss Law,State Gauss law in integral form,Flux of E through closed surface equals Q_enclosed divided by epsilon_0,3
 ALG_002,Linear Algebra,Matrix Operations,What is the result of multiplying a matrix by its inverse?,The identity matrix,1
+M2-CC4-A1,Maths 2,Taylor Series - Compositions,Donner le DL3 en 0 de h(x) = e^(sin x),1 + x + x^2/2 - x^3/3,3
+M2-CC4-A2,Maths 2,Taylor Series - Compositions,Donner le DL4 en 0 de h(x) = cos(sqrt(1+x^2)-1),1 - x^4/4,3
+M2-CC4-A3,Maths 2,Taylor Series - Compositions,Donner le DL3 en 0 de h(x) = ln(cos x),-x^2/2 - x^4/12,3
+M2-CC4-A4,Maths 2,Taylor Series - Compositions,Donner le DL3 en 0 de h(x) = arctan(ln(1+x)),x - x^2/2 - x^3/6,3
+M2-CC4-A5,Maths 2,Taylor Series - Compositions,Donner le DL4 en 0 de h(x) = sin(x - x^3/6),x - x^3/3,3
+M2-CC4-B1,Maths 2,Taylor Series - Quotients,Donner le DL3 en 0 de f(x) = (e^x - 1)/sin(x),1 + x/2 - x^3/8,2
+M2-CC4-B2,Maths 2,Taylor Series - Quotients,Donner le DL3 en 0 de f(x) = (1 - cos x)/(x sin x),1/2 - x^2/12,2
+M2-CC4-B3,Maths 2,Taylor Series - Quotients,Donner le DL3 en 0 de f(x) = sh(x)/(x + x^3),1/x - 1 + x^2/6,3
+M2-CC4-B4,Maths 2,Taylor Series - Quotients,Donner le DL3 en 0 de f(x) = ln(1+x)/(x^2 + sin x),1/x - 1 + 5x/6,3
+M2-CC4-B5,Maths 2,Taylor Series - Quotients,Donner le DL4 en 0 de f(x) = (sin x + 1)/ch(x),1 + x - x^2/2 - x^3/6 + x^4/24,2
+M2-CC4-C1,Maths 2,Taylor Series - Valuation,u(x) = x^2 - sin^2(x): calculer val(u) et ordre minimal de v pour DL9(u*v),val(u)=4 donc ordre minimal de v = 5,3
+M2-CC4-C2,Maths 2,Taylor Series - Valuation,val(psi)=2. Ordre minimal de phi pour DL10(phi∘psi)?,ordre minimal de phi = 5 car besoin DL de phi a l ordre 10/2=5,2
+M2-CC4-C3,Maths 2,Taylor Series - Valuation,val(phi)=5 et val(psi)=1. Ordre minimal de psi pour DL12(phi∘psi)?,ordre minimal de psi = 12 car val(phi∘psi)=5*1=5 donc besoin DL12 de psi,3
+M2-CC4-C4,Maths 2,Taylor Series - Valuation,u(x) = e^x - 1 - x: calculer val(u) et ordre minimal de v pour DL6(u*v),val(u)=2 donc ordre minimal de v = 4,2
+M2-CC4-C5,Maths 2,Taylor Series - Valuation,val(psi)=3. Ordre minimal de phi pour DL11(phi∘psi) et DL12(phi∘psi)?,Pour DL11: ordre 3 (11/3 arrondi). Pour DL12: ordre 4,3
+M2-CC4-D1,Maths 2,Taylor Series - Limits,Calculer lim x->0 de (e^x - 1 - x)/x^2,1/2,1
+M2-CC4-D2,Maths 2,Taylor Series - Limits,Calculer lim x->0 de (ln(1+x) - x + x^2/2)/x^3,-1/3,2
+M2-CC4-D3,Maths 2,Taylor Series - Limits,Calculer lim x->0 de (cos x - sqrt(1-x^2))/x^4,-1/4,3
+M2-CC4-D4,Maths 2,Taylor Series - Limits,Calculer lim x->0 de (tan x - sin x)/x^3,1/2,2
