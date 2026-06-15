@@ -4,7 +4,7 @@ A command-line tool for spaced repetition study sessions.
 Load questions from CSV, run interactive sessions, track your history,
 and visualize your progress over time.
 
-![Python](https://img.shields.io/badge/python-3.11%2B-blue)
+![Python](https://img.shields.io/badge/python-3.14%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-in%20progress-orange)
 
@@ -35,7 +35,7 @@ and visualize your progress over time.
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/tu-usuario/active-recall-cli.git
+git clone https://github.com/david-deluca/active-recall-cli.git
 cd active-recall-cli
 ```
 
