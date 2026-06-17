@@ -6,7 +6,7 @@ and visualize your progress over time.
 
 ![Python](https://img.shields.io/badge/python-3.14%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Status](https://img.shields.io/badge/status-in%20progress-orange)
+![Status](https://img.shields.io/badge/status-stable-brightgreen)
 
 ---
 
